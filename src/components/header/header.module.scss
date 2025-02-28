@@ -1,0 +1,23 @@
+.header{
+    height: 100px;
+    position: fixed;
+    top: 0;
+    background-color: #7710ec;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    z-index: 3;
+    img{
+        height: 80px;
+        object-fit: contain;
+    }
+    div{
+        display: flex;
+        gap: 60px;
+        a{
+            color: aliceblue;
+            text-decoration: none;
+        }
+    }
+}

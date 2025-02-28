@@ -1,0 +1,17 @@
+.clicked{
+    color: #7710ec !important;
+}
+.card{
+    border: 2px solid #7710ec;
+    background-color: #dfd0f9;
+    img{
+        width: 250px !important;
+        height: 300px !important;
+        margin: auto;
+        margin-top: 20px;
+        transition: 0.6s;
+        &:hover{
+            scale: 1.4;
+        }
+    }
+}
