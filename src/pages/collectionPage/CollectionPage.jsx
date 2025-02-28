@@ -13,7 +13,7 @@ function CollectionPage() {
             <div className={stl.cards}>
                 {collectionPokemons.length > 0 ? (
                     collectionPokemons.map((pokemon, i) => (
-                        <CardComp name={pokemon.name} url={pokemon.url} png={pokemon.img}/>
+                        <CardComp key={i} name={pokemon.name} url={pokemon.url} png={pokemon.img}/>
                     ))
                 ) : (
                     <p>The Collection is Empty! Fill it with your POKEMONS!</p>

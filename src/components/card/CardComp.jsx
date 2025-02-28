@@ -41,9 +41,10 @@ function CardComp({ name, url, png}) {
   const addtoButtle = ()=>{
     if(!inButtle){
       dispatch( addPokemon1({name, img, url}))
-      setinButtle(false)
+      setinButtle(true)
     } else {
       dispatch( addPokemon2({name, img, url}))
+      setinButtle(false)
     }
   }
 

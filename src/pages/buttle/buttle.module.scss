@@ -23,4 +23,30 @@
         margin: auto;
         color: aliceblue;
     }
+    .buttle_inner{
+        width: 1000px;
+        border: 3px solid #7710ec;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        align-items: center;
+        button{
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        h5{
+            margin: 0;
+            padding: 0;
+            font-size: 60px;
+            color: #f3ce00;
+        }
+    }
+    
+    h3{
+        color: #ffffff;
+        text-align: center;
+        font-family: sans-serif;
+        font-family: 90px;
+    }
 }
